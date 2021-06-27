@@ -74,6 +74,8 @@ img {
 }
 .menu{
     display: flex;
+    align-items: center;
+    
 }
 .list-item:not(:last-child) {
     margin-right: 50px;
@@ -290,8 +292,7 @@ img {
 /* footer */
 .footer{
     background: #2F303A;
-    width: 1600px;
-    height: 252px;
+    
     margin: 0 auto;
 }
 .footer-list{
