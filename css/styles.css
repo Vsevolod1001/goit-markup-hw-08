@@ -297,6 +297,7 @@ img {
 }
 .footer-list{
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .studio-footer{
     color: #FFFFFF;
@@ -308,7 +309,8 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    padding-top: 20px;
+    margin-top: 20px;
+
 }
 .contact-list a{
     font-size: 14px;
@@ -317,9 +319,15 @@ img {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     margin-top: 9px;
-    margin-bottom: 60px;
+    
 }
-
+.pagination{
+    margin-top: 9px;
+    /* padding-bottom: 60px; */
+}
+.pagination-item{
+    margin-bottom: 9px;
+}
   
 /* page 2 PORTFOLIO */
 
@@ -340,7 +348,7 @@ img {
 .about-our-work-info{
     display: flex;
     flex-wrap: wrap;
-    
+    margin-left: -30px;
     margin-top: -30px;
 }
 .about-our-work-info-item{
@@ -367,6 +375,9 @@ img {
     background-color: #2196F3;
     color: #FFFFFF;
 }
+
+    
+
 .work-project{
     font-weight: 700;
     font-size: 18px;
@@ -387,6 +398,10 @@ img {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+}
+.item{
+    margin-right: 0;
+    
 }
 
    
