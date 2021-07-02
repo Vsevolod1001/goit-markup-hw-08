@@ -121,10 +121,15 @@ img {
     fill: #757575;
     margin-right: 10px;
 }
-
 .contact-link:hover,
 .contact-link:focus{
     color: #2196F3;
+}
+.contact-link:hover .header-icon,
+.contact-link:focus{
+
+    fill: #2196F3;
+
 }
 
 /* hero */
@@ -191,7 +196,12 @@ img {
     margin-left: 30px;
     margin-top: 94px;
 }
-.advantage-logo{
+.advantage-icon{
+    height: 70px;
+    width: 70px;
+    
+}
+.advantage-list-icon{
     padding: 25px 100px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -305,6 +315,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
 }
 .social-list{
     display: flex;
@@ -322,10 +333,11 @@ img {
 }
 .social-list-link:hover,
 .social-list-link:focus{
-    /* fill: #FFFFFF; */
     background-color: #2196F3;
-    
-    
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus{
+    fill: white;
 }
 
 .social-list-icon{
@@ -333,8 +345,9 @@ img {
     height: 20px;
     fill: #AFB1B8;
 }
-.social-list-icon:hover{
-    fill: white;
+/* .social-list-icon:hover{
+    fill: white; */
+    
 }
    
 }
