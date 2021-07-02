@@ -379,7 +379,7 @@ img {
     border: 1px solid #2196F3;
 } 
 .clients-list-link:hover .clients-icon,
-.clients-list-link:focus{
+.clients-list-link:focus .clients-icon{
     fill: #2196F3
 }
     .clients-link{
@@ -398,6 +398,8 @@ img {
     margin: 0 auto;
 }
 .footer-list{
+    display: flex;
+    align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -425,12 +427,51 @@ img {
 }
 .pagination{
     margin-top: 9px;
-    /* padding-bottom: 60px; */
 }
 .pagination-item{
     margin-bottom: 9px;
 }
   
+/* присоединяйся */
+.footer-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-social-list-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-color: #43444D;
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus{
+    background-color: #2196F3;
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon{
+    fill: white;
+}
+
+.footer-social-list-icon{
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+.footer-join{
+    margin-left: 70px;
+}
+.footer-social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+/* присоединяйся конец */
 /* page 2 PORTFOLIO */
 
 /* about our work */
