@@ -499,7 +499,7 @@ img {
 .clients-list-link:focus .clients-icon{
     fill: #2196F3
 }
-    .clients-link{
+.clients-link{
     display: flex;
     justify-content: center;
     align-items: center;
