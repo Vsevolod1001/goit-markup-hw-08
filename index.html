@@ -56,28 +56,45 @@
                             </button>
                             <div>
                                 <form class="form">
-                                    <h1 class="form-title">Оставьте свои данные, мы вам перезвоним</h1>
-                                    <div>
+                                    <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+                                    <div class="form-field">
                                         <label for="name">Имя</label>
-                                        <input type="name" name="name" id="name">
+                                        <div class="form-input">
+                                            <input type="name" name="name" id="name">
+                                            <svg class="form-icon">
+                                                <use href="./images/symbol-defs.svg#personblack"></use>
+                                            </svg>
+                                        </div>
+                                       
                                     </div>
-                                    <div>
+                                    <div class="form-field">
                                         <label for="tel">Телефон</label>
-                                        <input type="tel" name="tel" id="tel">
+                                        <div class="form-input">
+                                            <input type="tel" name="tel" id="tel">
+                                            <svg class="form-icon">
+                                                <use href="./images/symbol-defs.svg#phoneblack"></use>
+                                            </svg>
+                                        </div>
+                                        
                                     </div>
-                                    <div>
+                                    <div class="form-field">
                                         <label for="mail">Почта</label>
-                                        <input type="mail" name="mail" id="mail">
+                                        <div class="form-input">
+                                            <input type="mail" name="mail" id="mail">
+                                            <svg class="form-icon">
+                                                <use href="./images/symbol-defs.svg#emailblack"></use>
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <div>
+                                    <div class="form-field">
                                         <label for="comment">Комментарий</label>
-                                        <textarea name="comment" id="comment">Введите текст</textarea>
+                                        <textarea class="comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
                                     </div>
-                                    <div>                    
+                                    <div class="checkbox">                    
                                         <input type="checkbox" name="policy" id="policy">
-                                        <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                                        <label for="policy">Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="#">Условия договора</a></label>
                                     </div>
-                                    <button type="submit">Отправить</button>
+                                    <button class="modal-btn" type="submit">Отправить</button>
                                 </form>
                             </div>
                         </div>
@@ -457,7 +474,7 @@
                             <label for="mail">
                                 <input class="footer-input" type="mail" name="mail" required placeholder="E-mail">
                             </label>
-                            <button type="submit" class="modal-btn">Подписаться</button>
+                            <button type="submit">Подписаться</button>
                         </form>
                     </div>                       
                 </div>
