@@ -327,14 +327,15 @@ img {
     display: block;
     content: "";
     width: 16px;
-    height: 16px;
-    border: 1px solid #303030;
+    height: 15px;
+    border: 2px solid #212121;
     cursor: pointer;
     margin-right: 9px;
+    border-radius: 3px;
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before{
-    /* background-color: tomato; */
     background-image: url("../images/iconcheck.png");
+    border: none
 }
 .modal-form-checkbox-label{
     display: flex;
@@ -345,6 +346,7 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
     margin-bottom: 30px;
+    
 }
 .checkbox-link{
     color: #2196F3;
@@ -803,7 +805,7 @@ img {
     padding: 63px 24px;
     background-color: rgba(33, 150, 243, 0.9);
     overflow: auto;
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms linear;
     
 }
