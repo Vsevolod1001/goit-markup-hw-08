@@ -43,7 +43,7 @@ body{
     padding-right: 15px;
     
 }
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
@@ -63,14 +63,14 @@ body{
 .navigation__studio{
     color: #000000;
 }
-.navigation__menu{
+.navigation__list{
     display: flex;
     align-items: center;
 }
-.navigation__list{
+.navigation__item{
     position: relative;
 }
-.navigation__list:not(:last-child) {
+.navigation__item:not(:last-child) {
     margin-right: 50px;
 }
 .navigation__link .current{
@@ -104,12 +104,10 @@ body{
 }
 .navigation__contact{
     margin-left: auto;
-    
-}
-.navigation__contact-box{
     display: flex;
     
 }
+
 .navigation__mail{
     margin-right: 50px;
     margin-left: auto;
