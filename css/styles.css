@@ -105,9 +105,7 @@ body{
 .navigation__contact{
     margin-left: auto;
     display: flex;
-    
 }
-
 .navigation__mail{
     margin-right: 50px;
     margin-left: auto;
@@ -347,7 +345,7 @@ body{
     margin-left: -30px;
     margin-top: -94px;
 }
-.advantage__list-item{
+.advantage__item{
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 94px;
@@ -357,7 +355,7 @@ body{
     width: 70px;
     
 }
-.advantage__list-icon{
+.advantage__tool{
     padding: 25px 100px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -406,13 +404,13 @@ body{
 
 
 }
-.work__list-item{
+.work__item{
     position: relative;
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-top: 50px;
 }
-.work__item{
+.work__describe{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -453,7 +451,7 @@ body{
     margin-left: -30px;
     margin-top: -54px;
 }
-.team__list-item{
+.team__item{
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 54px;
@@ -562,7 +560,7 @@ body{
     fill: #2196F3
 }
 
-.clients__list:not(:last-child){
+.clients__item:not(:last-child){
     margin-right: 30px;
 }
 
@@ -603,7 +601,7 @@ body{
 .footer__pagination{
     margin-top: 9px;
 }
-.footer__list-item{
+.footer__item{
     margin-bottom: 9px;
 }
   
@@ -646,7 +644,7 @@ body{
 }
 
 
-.footer__social-list-item:not(:last-child) {
+.footer__social-item:not(:last-child) {
     margin-right: 10px;
 }
 /* присоединяйся конец */
