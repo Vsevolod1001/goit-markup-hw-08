@@ -192,6 +192,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.button-close:hover .close-icon {
+  fill: #2196F3;
+}
+
 .close-icon {
   width: 11px;
   height: 11px;
