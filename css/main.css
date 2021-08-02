@@ -77,13 +77,14 @@ body {
 }
 
 .container {
+  min-width: 270px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    max-width: 480px;
     margin: 0 auto;
   }
 }
@@ -132,7 +133,7 @@ body {
 
 .team__social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .team__social-link {
@@ -160,6 +161,12 @@ body {
 .team__social-link:hover .team__social-icon,
 .team__social-link:focus .team__social-icon {
   fill: white;
+}
+
+@media screen and (min-width: 768px) {
+  .team__social-list {
+    justify-content: center;
+  }
 }
 
 .backdrop {
@@ -471,8 +478,10 @@ body {
 }
 
 .advantage__tool {
+  width: 100%;
   text-align: center;
-  padding: 25px 190px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -606,8 +615,6 @@ body {
   background: #FFFFFF;
   padding-top: 30px;
   padding-bottom: 24px;
-  padding-left: 122px;
-  padding-right: 122px;
 }
 
 .team__title-name {
@@ -639,6 +646,10 @@ body {
   margin-bottom: 30px;
 }
 
+.image-foto {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .team__list {
     display: flex;
@@ -649,6 +660,16 @@ body {
     flex-basis: calc((100% - 120px) / 2);
     margin-left: 30px;
     width: 354px;
+  }
+  .team__item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .team__container {
+    background: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

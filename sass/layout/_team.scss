@@ -16,8 +16,8 @@
     background: #FFFFFF;
     padding-top: 30px;
     padding-bottom: 24px;
-    padding-left: 122px;
-    padding-right: 122px;
+    // padding-left: 122px;
+    // padding-right: 122px;
     }
 .team__title-name{
     font-weight: 500;
@@ -44,6 +44,9 @@
 .team__item:not(:last-child){
     margin-bottom: 30px;
 }
+.image-foto{
+    width: 100%;
+}
 
 @media screen and (min-width: 768px){
     .team__list{
@@ -56,9 +59,17 @@
         margin-left: 30px;
         width: 354px;
     }
-    .team__container{
-        
+    .team__item:not(:last-child){
+        margin-bottom: 0px;
     }
+    .team__container{
+        background: #FFFFFF;
+        padding-top: 30px;
+        padding-bottom: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+    
    
 }
 

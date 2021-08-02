@@ -1,6 +1,6 @@
 .team__social-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 .team__social-link{
@@ -16,7 +16,7 @@
     &:focus{
         background-color: #2196F3;
     }
-}
+
 .team__social-icon{
     width: 20px;
     height: 20px;
@@ -26,4 +26,4 @@
     .team__social-link:focus &{
     fill: white;
     }
-}
+
