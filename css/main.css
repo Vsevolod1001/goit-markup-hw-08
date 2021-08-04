@@ -710,24 +710,27 @@ body {
 }
 
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .clients__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
   color: #212121;
+  margin-bottom: 30px;
 }
 
 .clients__menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .clients__icon {
@@ -746,8 +749,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 90px;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -758,19 +759,62 @@ body {
   border: 1px solid #2196F3;
 }
 
-.clients__item:not(:last-child) {
+.clients__item {
+  flex-basis: calc((100% - 90px) / 2);
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
-.footer__list {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 768px) {
+  .clients__item {
+    flex-basis: calc((100% - 120px) / 3);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .clients__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: #212121;
+  }
+  .clients__menu {
+    margin-right: 0;
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+  }
+  .clients__item {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .clients__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.footer {
+  background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer__studio {
   color: #FFFFFF;
+}
+
+.footer-box {
+  text-align: center;
+}
+
+.navigation__logo {
+  margin-right: 0;
 }
 
 .footer__contact-info {
@@ -792,116 +836,9 @@ body {
   margin-top: 9px;
 }
 
-.footer__pagination {
-  margin-top: 9px;
-}
-
-.footer__item {
-  margin-bottom: 9px;
-}
-
 /* присоединяйся */
-.footer__join {
-  margin-left: 70px;
-}
-
-.footer__title {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
-
-.footer__social-list-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  background-color: #43444D;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__social-list-link:hover, .footer__social-list-link:focus {
-  background-color: #2196F3;
-}
-
-.footer__social-list-icon {
-  width: 20px;
-  height: 20px;
-  fill: #FFFFFF;
-}
-
-.footer__social-list-link:hover .footer__social-list-icon,
-.footer__social-list-link:focus .footer__social-list-icon {
-  fill: white;
-}
-
-.footer__social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 /* присоединяйся конец */
 /* Подпишитесь на рассылку */
-.footer__form {
-  display: flex;
-}
-
-.footer__input {
-  width: 358px;
-  padding: 15px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background: #2F303A;
-  color: #ffffff;
-  margin-right: 12px;
-}
-
-.footer-btn {
-  position: relative;
-}
-
-.footer__icon {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 13px;
-  right: 28px;
-  pointer-events: visiblePainted;
-}
-
-.footer-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-  cursor: pointer;
-  margin: 0 auto;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding-top: 10px;
-  padding-left: 29px;
-  padding-bottom: 10px;
-  padding-right: 62px;
-  border: none;
-}
-
-.footer {
-  background: #2F303A;
-  margin: 0 auto;
-}
-
 .about-our-work {
   padding-top: 94px;
   padding-bottom: 94px;
