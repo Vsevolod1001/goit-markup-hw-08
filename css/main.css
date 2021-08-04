@@ -881,6 +881,10 @@ body {
   margin-right: 10px;
 }
 
+.footer__mailing {
+  margin-top: 60px;
+}
+
 .footer__input {
   width: 100%;
   padding: 15px 16px;
@@ -925,6 +929,24 @@ body {
   padding-bottom: 10px;
   padding-right: 62px;
   border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer__join {
+    margin-top: 0px;
+  }
+  .footer__mailing {
+    width: 450px;
+    margin-top: 0;
+  }
+  .footer-box {
+    margin-bottom: 60px;
+  }
 }
 
 /* присоединяйся */
