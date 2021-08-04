@@ -836,6 +836,63 @@ body {
   margin-top: 9px;
 }
 
+.footer__join {
+  margin-top: 60px;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.footer__social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: #43444D;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__social-list-link:hover, .footer__social-list-link:focus {
+  background-color: #2196F3;
+}
+
+.footer__social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+}
+
+.footer__social-list-link:hover .footer__social-list-icon,
+.footer__social-list-link:focus .footer__social-list-icon {
+  fill: white;
+}
+
+.footer__social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__input {
+  width: 100%;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2F303A;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 /* присоединяйся */
 /* присоединяйся конец */
 /* Подпишитесь на рассылку */
