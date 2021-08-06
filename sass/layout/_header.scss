@@ -127,7 +127,7 @@
 .nav-socials__item:not(:last-child){
     margin-right: 20px;
 }
-.nav-socials__item::before{
+.nav-socials__item::after{
     display: block;
     content: "";
     height: 1px;
