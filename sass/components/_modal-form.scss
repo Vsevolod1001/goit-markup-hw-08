@@ -64,6 +64,8 @@
 }
 .modal-form-checkbox-label{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     font-weight: 400;
     font-size: 14px;
