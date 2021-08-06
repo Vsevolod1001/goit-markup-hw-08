@@ -120,6 +120,20 @@
         max-width: 440px;
     }
 }
+@media screen and (min-width: 1200px){
+    .about-our-work{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .about-our-work-nemu{        
+        margin-bottom: 50px;
+    }
+    .about-our-work-info-item{
+        flex-basis: calc((100% - 90px) / 3);
+    }
+        
+          
+}
 
 
 
