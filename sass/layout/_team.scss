@@ -53,11 +53,17 @@
         margin-left: -30px;
     }
     .team__item{
-        flex-basis: calc((100% - 120px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
         margin-left: 30px;
         width: 354px;
     }
     .team__item:not(:last-child){
+        margin-bottom: 0px;
+    }
+    .team__item:nth-child(1){
+        margin-bottom: 30px;
+    }
+    .team__item:nth-child(2){
         margin-bottom: 30px;
     }
     .team__container{
