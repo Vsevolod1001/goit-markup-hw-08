@@ -29,3 +29,9 @@
    width: 11px;
    height: 11px;
 }
+@media screen and (max-width: 479px){
+    .modal {
+        min-width: 450px;
+        min-height: 609px;
+    }
+}

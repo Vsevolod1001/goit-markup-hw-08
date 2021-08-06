@@ -218,6 +218,13 @@ body {
   height: 11px;
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    min-width: 450px;
+    min-height: 609px;
+  }
+}
+
 .form-title {
   font-weight: 700;
   font-size: 20px;
@@ -472,16 +479,9 @@ body {
 }
 
 .nav-socials__item:not(:last-child) {
-  margin-right: 20px;
-}
-
-.nav-socials__item::after {
-  display: block;
-  content: "";
-  height: 1px;
-  width: 22px;
-  transform: rotate(90deg);
-  background-color: rgba(33, 33, 33, 0.2);
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .nav-socials__link {
