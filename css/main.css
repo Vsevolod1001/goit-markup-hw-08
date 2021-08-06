@@ -535,10 +535,10 @@ body {
   .navigation__item:not(:last-child) {
     margin-right: 50px;
   }
-  .navigation__link .current {
+  .navigation__link.current {
     position: relative;
   }
-  .navigation__link .current::after {
+  .navigation__link.current::after {
     content: "";
     position: absolute;
     display: block;

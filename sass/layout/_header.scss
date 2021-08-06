@@ -184,7 +184,7 @@
         margin-right: 50px;
     }
 }
-.navigation__link .current{
+.navigation__link.current{
     position: relative;
     &::after{
         content: "";
