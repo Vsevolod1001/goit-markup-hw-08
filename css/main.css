@@ -224,6 +224,20 @@ body {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
+
 .form-title {
   font-weight: 700;
   font-size: 20px;
@@ -1334,6 +1348,9 @@ body {
   .about-our-work-info-item {
     margin-bottom: 0px;
     max-width: 440px;
+  }
+  .about-our-work-box {
+    padding-bottom: 36px;
   }
 }
 
