@@ -150,8 +150,8 @@
         display: none;
     }
     .header{    
-    padding-top: 25px;
-    padding-bottom: 25px;    
+    padding: 0;
+    min-height: 80px;  
     }
     .header__container {
     display: flex;
@@ -215,10 +215,12 @@
 .navigation__contact{
     margin-left: auto;
     display: block;
+    padding-bottom: 19px;
 }
 .navigation__mail{    
     margin-left: auto;
     margin-bottom: 10px;
+    padding-top: 21px;
 }
 .navigation__contact-link{
     display: flex;
@@ -252,10 +254,16 @@
         }
     .navigation__contact{        
         display: flex;
+        margin-left: auto;
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: 24px;
         }
     .navigation__mail{
-        margin-right: 50px; 
-        margin-bottom: 0;       
+        padding: 0;
+        margin-right: 30px;
+        // margin-right: 50px; 
+        // margin-bottom: 0;       
         }
 }
 
