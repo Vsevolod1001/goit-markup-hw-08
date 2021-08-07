@@ -970,8 +970,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .clients__icon {
@@ -990,6 +990,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 210px;
+  max-height: 90px;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -1002,13 +1004,17 @@ body {
 
 .clients__item {
   flex-basis: calc((100% - 90px) / 2);
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
   .clients__item {
     flex-basis: calc((100% - 120px) / 3);
+  }
+  .clients__link {
+    width: 226px;
+    height: 90px;
   }
 }
 
@@ -1038,6 +1044,10 @@ body {
   .clients__item:not(:last-child) {
     margin-right: 30px;
   }
+  .clients__link {
+    width: 170px;
+    height: 90px;
+  }
 }
 
 .footer {
@@ -1054,8 +1064,16 @@ body {
   text-align: center;
 }
 
-.navigation__logo {
+.footer-navigation__logo {
   margin-right: 0;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #2196F3;
 }
 
 .footer__contact-info {
@@ -1075,6 +1093,22 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   margin-top: 9px;
+}
+
+.footer__contact-list {
+  margin-top: 8px;
+}
+
+.footer__item:nth-child(1) {
+  margin-bottom: 8px;
+}
+
+.footer__item-box {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer__join {
@@ -1194,6 +1228,7 @@ body {
   .footer-box {
     margin-bottom: 0;
     margin-right: 70px;
+    text-align: inherit;
   }
   .footer__mailing {
     width: 570px;
@@ -1217,6 +1252,21 @@ body {
     background: #2F303A;
     color: #ffffff;
     margin-right: 12px;
+  }
+  .footer-navigation__logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+  }
+  .footer__contact-list {
+    margin-top: 9px;
+  }
+  .footer__item:nth-child(1) {
+    margin-bottom: 9px;
   }
 }
 
