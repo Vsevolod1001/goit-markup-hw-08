@@ -541,7 +541,6 @@ body {
   .navigation__list {
     display: flex;
     align-items: center;
-    margin-left: 70px;
   }
   .navigation__item {
     position: relative;
