@@ -7,6 +7,7 @@
     text-align: center;
     margin: 0 auto;
     background-image: linear-gradient(
+        to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
     ),
@@ -18,7 +19,11 @@
     (min-resolution: 192dpi) and (min-width: 280px),
     (min-resolution: 2dppx) and (min-width: 280px) {
         .hero{
-            background-image: url(../images/studio/hero/heroM@2x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ), url(../images/studio/hero/heroM@2x.jpg);
         }
     }
 .hero__title{    
@@ -35,7 +40,11 @@
 @media screen and (min-width: 768px){
     .hero{
         max-width: 768px;
-        background-image: url(../images/studio/hero/heroT1x.jpg);
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/studio/hero/heroT1x.jpg);
     }
 }
             // dpr2 и 768px+
@@ -43,7 +52,11 @@
     (min-resolution: 192dpi) and (min-width: 768px),
     (min-resolution: 2dppx) and (min-width: 768px) {
         .hero{
-            background-image: url(../images/studio/hero/heroT@2x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/studio/hero/heroT@2x.jpg);
         }
     }
 
@@ -52,7 +65,11 @@
     .hero{
         padding: 200px 0;
         max-width: 1600px;
-        background-image: url(../images/studio/hero/heroD1x.jpg);
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/studio/hero/heroD1x.jpg);
     }
     .hero__title{
         font-weight: 900;
@@ -66,6 +83,10 @@
     (min-resolution: 192dpi) and (min-width: 1200px),
     (min-resolution: 2dppx) and (min-width: 1200px) {
         .hero{
-            background-image: url(../images/studio/hero/heroD@2x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/studio/hero/heroD@2x.jpg);
         }
     }
